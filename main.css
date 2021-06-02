@@ -1,0 +1,109 @@
+.titulo
+{
+    width: 720px;
+    border: solid 1px #ddd;
+    margin: 0 auto;
+background: #00000000;
+border: solid 10px;
+text-align:center;
+min-height:430px;
+}
+
+.btn{
+    border:none;
+    padding: 10px 30px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:dodgerblue;
+}
+
+.titulo h3
+{
+padding: 10px;
+background:black;
+color:white;
+}
+
+.game .corpo
+{
+padding: 20px;
+}
+
+.game .opcoes
+{
+text-align:center;
+}
+.game .card{
+    width: 50px;
+    height: 80px;
+    padding: 10px;
+    border: solid 1px #808080;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 10pt;
+    text-align: center;
+    margin: 3px;
+    border:solid 3px;
+}
+
+.game .pontos
+{
+    display: inline-block;
+background: gold;
+border: solid 5px white;
+border-radius: 10px;
+padding: 5px 20px;
+margin: 0 auto;
+margin-top: 10px;
+display:none;
+}
+
+
+.jogadores{
+       width: 500px;
+margin: 0 auto;
+margin-top: 20px;
+text-align: center;
+}
+
+.jogador{
+    width: 40%;
+    border: solid 5px #f5f5f5;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    margin:1%;
+    vertical-align: top;
+    background:#f5f5f5;
+}
+
+.jogador.active{
+    border: solid 5px #222;
+}
+
+.pontos{
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+    margin: -2px;
+}
+
+.deck{
+    float:left;
+    background: white;
+    color:#222;
+    padding: 10px;
+    border-radius:10px;
+    border: double 5px;
+}
+
+.btn
+{
+    background:#222;
+    color:white !important;
+    border-radius:0px;
+}
